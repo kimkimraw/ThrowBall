@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+
+main{
+	width: 100vw;
+	height: 100vh;
+	background: rgba(200,200,250,.5);
+	text-align: center;
+}
+
+
+form{
+	padding: 10%;
+
+
+
+}
+
+form input{
+	min-width: 10vw;
+	height: 15vh;
+	font-size: 1.5rem;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.btn{
+	min-width: 20vw;
+	max-width: 50vw;
+	max-height: 15vh;
+	min-height: 10vh;
+	font-size: 1rem;
+	border:double 3px white;
+	background: green;
+	text-align: center;
+	line-height: 50px;
+
+}
+
+.result{
+	display:inline-block;
+	min-width: 80vw;
+	background: rgba(200,200,200,0.5);
+}
